@@ -46,7 +46,7 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Aaron Jan Estacio</span>
+                Hi, I&apos;m <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Aaron Jan Estacio</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 A BSIT student creating 
@@ -144,9 +144,9 @@ export default function Portfolio() {
       {/* CTA Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Let&apos;s Work Together</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Have a project in mind? I'd love to hear about it and bring your ideas to life.
+            Have a project in mind? I&apos;d love to hear about it and bring your ideas to life.
           </p>
           
           {/* Social Platform Links */}

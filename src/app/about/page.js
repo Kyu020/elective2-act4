@@ -38,9 +38,9 @@ export default function About() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">My Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Hello! I'm Aaron Jan Estacio, a BSIT student learning his way towards being a fullstack developer 
+                  Hello! I&apos;m Aaron Jan Estacio, a BSIT student learning his way towards being a fullstack developer 
                   by building creative and innovative digital experiences. Currently undertaking this journey since the 
-                  beginning of college, and I've been hooked ever since.
+                  beginning of college, and I&apos;ve been hooked ever since.
                 </p>
                 <p>
                   I specialize in building scalable web applications using modern technologies 

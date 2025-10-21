@@ -30,14 +30,14 @@ const handleSubmit = (e) => {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Get In Touch</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+            Have a project in mind? Let&apos;s discuss how we can work together to bring your ideas to life.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Let's Start a Conversation</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">Let&apos;s Start a Conversation</h2>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
