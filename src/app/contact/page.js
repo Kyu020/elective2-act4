@@ -10,19 +10,18 @@ export default function Contact() {
     message: ''
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+const handleChange = (e) => {
+  setFormData({
+    ...formData,
+    [e.target.name]: e.target.value
+  });
+};
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    alert(`Thank you for your message, ${formData.name}! I'll get back to you within 24 hours.`);
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+  alert(`Thank you for your message, ${formData.name}! I'll get back to you within 24 hours.`);
+  setFormData({ name: '', email: '', subject: '', message: '' });
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-12">

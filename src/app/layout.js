@@ -10,11 +10,7 @@ export const metadata = {
   description: 'Full Stack Developer & Creative Problem Solver',
 }
 
-interface RootLayoutProps {
-  children: ReactNode
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
